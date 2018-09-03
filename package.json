@@ -1,0 +1,23 @@
+{
+  "name": "netgear-jgs524pe-influx",
+  "version": "1.0.0",
+  "description": "Poll interface statistics from a Netgear JGS524PE managed switch over HTTP, write to InfluxDB ",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scanlime/netgear-jgs524pe-influx.git"
+  },
+  "author": "Micah Elizabeth Scott",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/scanlime/netgear-jgs524pe-influx/issues"
+  },
+  "homepage": "https://github.com/scanlime/netgear-jgs524pe-influx#readme",
+  "dependencies": {
+    "influx": "^5.0.7"
+  }
+}
